@@ -43,7 +43,7 @@ span{
 }
 #main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("/banner.jpg");
+    url("banner.jpg");
     background-size: cover;
     text-align: center;
     color: white;
