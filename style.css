@@ -1,0 +1,71 @@
+* {
+    font-family: "Audiowide", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80;
+    margin: auto;
+    overflow: hidden;
+}
+#header {
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid red;
+    padding-left: 40px;
+}
+#header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header li{
+    display: inline;
+    padding: 0 30px;
+
+}
+#header li a{
+    text-decoration: none;
+    color: white;
+}
+#header li a:hover {
+    color: red;
+}
+span{
+    color: red;
+}
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("/banner.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 90vh;  
+}
+#main h1{
+    font-size: 65px;
+    padding-top: 150px;
+}
+#main p{
+    font-size: 30px;
+}
+#about {
+    background-color: black;
+    color: white;
+}
+#about h2,
+#contact h2{
+    color: red;
+    text-align: center;
+}
+#contact {
+    background-color: black;
+    color: white;
+}
